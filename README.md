@@ -147,7 +147,7 @@ Your project should now look like the following.
 │ 
 └───/templates/
 │   └───/profile1/
-│   │   └───/audio.wav
+│   │   └───/jingle.mp3
 │   │
 │   └───/profile1.json
 │   └───/profile2.json
@@ -176,7 +176,7 @@ It picks up all configuration profiles in the _templates_ folder and does the fo
 <a name="16"></a>
 #### 5) Deploy Alexa skill variants
 
-Let´s first have a look at the resulting project files below. There´s a new __dist_ folder which contains the replicated skill project - one per configuration profile. The settings from the configuration profiles were injected in the derived skill files. Pay attention to the _audio.wav_ file which is a custom skill resource for _profile1_ and is now part of the skill variant.
+Let´s first have a look at the resulting project files below. There´s a new __dist_ folder which contains the replicated skill project - one per configuration profile. The settings from the configuration profiles were injected in the derived skill files. Pay attention to the _jingle.mp3_ file which is a custom skill resource for _profile1_ and is now part of the skill variant.
 
 ```
 /my_skill_project/
@@ -187,7 +187,7 @@ Let´s first have a look at the resulting project files below. There´s a new __
 │   │   │   └───/config
 │   │   └───/lambda/
 │   │   └───/models/
-│   │   └───/audio.wav       
+│   │   └───/jingle.mp3       
 │   │   └───/skill.json    
 │   │   
 │   └───/profile2/ ...

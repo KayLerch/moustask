@@ -21,7 +21,7 @@ bash ./moustask.sh
 │ 
 └───/templates/
 │   └───/profile1/
-│   │   └───/audio.wav
+│   │   └───/jingle.mp3
 │   │
 │   └───/profile1.json
 │   └───/profile2.json
@@ -40,7 +40,7 @@ bash ./moustask.sh
 │   │   │   └───/config
 │   │   └───/lambda/
 │   │   └───/models/
-│   │   └───/audio.wav       
+│   │   └───/jingle.mp3       
 │   │   └───/skill.json    
 │   │   
 │   └───/profile2/ ...
