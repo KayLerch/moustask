@@ -67,7 +67,6 @@ Assume you have an interaction model you´d want to share across many Alexa skil
     "languageModel": {
       "invocationName": "{{invocation.en}}",
       "intents": [
-        // ...
       ]
     }
   }
@@ -90,8 +89,7 @@ The invocation name is also contained in your Alexa skill metadata. You'll use t
             "description": "This is the fancy {{title.en}} skill. Get started with 'Alexa open {{invocation.en}}'"
           }
         }
-      },
-      // ...
+      }
     }
   }
 ```
@@ -100,7 +98,6 @@ Output speech may also contain individual information like the skill title. Put 
 
 ```javascript
 const LaunchHandler = {
-  // ...
   handle(handlerInput) {
     return handlerInput.responseBuilder.speak('Welcome to the {{title.en}} skill.').getResponse();
   }
