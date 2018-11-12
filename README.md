@@ -17,7 +17,7 @@ This powerful tool enables you to create Alexa skill projects and all their file
         * [Create templates](#13)
         * [Add custom resources (images, audio etc.)](#14)
     * **Output**
-        * [Create Alexa skill variants](#15)
+        * [Generate Alexa skill variants](#15)
         * [Deploy Alexa skill variants](#16)
 * **[Best Practices](#2)**
 * **[Example](./example/skill-sample-nodejs-fact)**
