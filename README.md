@@ -2,7 +2,7 @@
 
 This powerful tool enables you to create Alexa skill projects and all their files as [Moustache](https://mustache.github.io/) templates to deploy them with customized settings on the fly. No more need to replicate resources you'd want to share across many Alexa skills.
 
-[Moustache](https://mustache.github.io/) is a logic-less template syntax. It can be used for HTML, config files, source code - anything. [Alexa Skills Kit ASK](https://mustache.github.io/) is a set of tools to build capabilities, or skills, that make Alexa smarter. [MoustASK](https://mustache.github.io/) however is just a tiny shell script that combines both worlds and establishes a very effective way of creating and maintaining the project repositories for many Alexa skills that work on a shared set of resources.
+[Moustache](https://mustache.github.io/) is a logic-less template syntax. It can be used for HTML, config files, source code - anything. [Alexa Skills Kit ASK](https://mustache.github.io/) is a set of tools to build capabilities, or skills, that make Alexa smarter. [MoustASK](#) however is just a tiny shell script that combines both worlds and establishes a very effective way of creating and maintaining the project repositories for many Alexa skills that work on a shared set of resources.
 
 ## Alexa Skill Templating powered by [Moustache](https://mustache.github.io/)
 
