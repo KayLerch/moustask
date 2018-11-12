@@ -1,0 +1,46 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Erfahre lustige und interessante Fakten über den {{theme.de}}.",
+          "examplePhrases": [
+            "Alexa öffne {{invocation.de}}",
+            "Alexa, frage {{invocation.de}} nach einem {{theme.de}} Faktum"
+          ],
+          "keywords": [
+            "{{theme.de}}",
+            "Fakten",
+            "Trivia"
+          ],
+          "name": "{{title.de}}",
+          "description": "Frage nach {{theme.de}}fakten und lerne, was wirklich wichtig ist bei dieser Materie. {{theme.de}}fakten bietet Spaß für die ganze Familie. Um zu beginnen, sage einfach „Alexa, starte {{invocation.de}}“ oder „Alexa, öffne {{invocation.de}}, um ein Faktum zu erhalten. Du kannst sie jederzeit unterbrechen, indem du „Alexa, stop“ sagst."
+        },
+        "en-US": {
+          "summary": "Learn fun facts about {{theme.en}}.",
+          "examplePhrases": [
+            "Alexa open {{invocation.en}}",
+            "Alexa ask {{invocation.en}} for a fact",
+            "Alexa tell {{invocation.en}} to tell me trivia"
+          ],
+          "keywords": [
+            "{{theme.en}}",
+            "facts",
+            "trivia"
+          ],
+          "name": "{{title.en}}",
+          "description": "Ask for {{theme.en}} Facts, and learn about what really matters.\n\n{{title.en}} provides fun the whole family can enjoy and is guaranteed to make you smarter.\n\nTo start, just say \"Alexa, launch {{invocation.en}}\" or \"Alexa, open {{invocation.en}}\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\""
+        }
+      },
+      "category": "KNOWLEDGE_AND_TRIVIA"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

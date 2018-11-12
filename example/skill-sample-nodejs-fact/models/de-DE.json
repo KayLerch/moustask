@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "{{invocation.de}}",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "ein Faktum",
+            "ein Faktum über den {{theme.de}}",
+            "sage mir ein Faktum",
+            "sage mir ein Faktum über den {{theme.de}}",
+            "gib mir ein Faktum",
+            "gib mir ein Faktum über den {{theme.de}}",
+            "erzähle mir Wissenswertes",
+            "erzähle mir Wissenswertes über den {{theme.de}}",
+            "sage mir etwas Wissenswertes",
+            "sage mir etwas wissenswertes über den {{theme.de}}",
+            "gib mir Informationen",
+            "gib mir Informationen über den {{theme.de}}",
+            "sage mir etwas",
+            "erzähle mir etwas"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "marsfakten",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "ein Faktum",
+            "ein Faktum über den Mars",
+            "sage mir ein Faktum",
+            "sage mir ein Faktum über den Mars",
+            "gib mir ein Faktum",
+            "gib mir ein Faktum über den Mars",
+            "erzähle mir Wissenswertes",
+            "erzähle mir Wissenswertes über den Mars",
+            "sage mir etwas Wissenswertes",
+            "sage mir etwas wissenswertes über den Mars",
+            "gib mir Informationen",
+            "gib mir Informationen über den Mars",
+            "sage mir etwas",
+            "erzähle mir etwas"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}

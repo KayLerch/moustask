@@ -1,0 +1,46 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Erfahre lustige und interessante Fakten über den Mars.",
+          "examplePhrases": [
+            "Alexa öffne marsfakten",
+            "Alexa, frage marsfakten nach einem Mars Faktum"
+          ],
+          "keywords": [
+            "Mars",
+            "Fakten",
+            "Trivia"
+          ],
+          "name": "Marsfakten",
+          "description": "Frage nach Marsfakten und lerne, was wirklich wichtig ist bei dieser Materie. Marsfakten bietet Spaß für die ganze Familie. Um zu beginnen, sage einfach „Alexa, starte marsfakten“ oder „Alexa, öffne marsfakten, um ein Faktum zu erhalten. Du kannst sie jederzeit unterbrechen, indem du „Alexa, stop“ sagst."
+        },
+        "en-US": {
+          "summary": "Learn fun facts about mars.",
+          "examplePhrases": [
+            "Alexa open mars facts",
+            "Alexa ask mars facts for a fact",
+            "Alexa tell mars facts to tell me trivia"
+          ],
+          "keywords": [
+            "mars",
+            "facts",
+            "trivia"
+          ],
+          "name": "Mars Geek",
+          "description": "Ask for mars Facts, and learn about what really matters.\n\nMars Geek provides fun the whole family can enjoy and is guaranteed to make you smarter.\n\nTo start, just say \"Alexa, launch mars facts\" or \"Alexa, open mars facts\" to get a fact\".\n\nAt anytime, you can stop by saying \"Alexa, stop\""
+        }
+      },
+      "category": "KNOWLEDGE_AND_TRIVIA"
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

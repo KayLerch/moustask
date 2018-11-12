@@ -1,0 +1,30 @@
+{
+    "invocation": {
+        "de": "weltraumfakten",
+        "en": "space facts"
+    },
+    "title": {
+        "de": "Weltraumfakten",
+        "en": "Space Geek"
+    },
+    "theme": {
+        "de": "Weltraum",
+        "en": "space"
+    },
+    "facts": {
+        "de": [
+            "Ein Jahr dauert auf dem Merkur nur 88 Tage.",
+            "Die Venus ist zwar weiter von der Sonne entfernt, hat aber höhere Temperaturen als Merkur.",
+            "Venus dreht sich entgegen dem Uhrzeigersinn, möglicherweise aufgrund eines früheren Zusammenstoßes mit einem Asteroiden.",
+            "Auf dem Mars erscheint die Sonne nur halb so groß wie auf der Erde.",
+            "Jupiter hat den kürzesten Tag aller Planeten."
+        ], 
+        "en" : [
+            "A year on Mercury is just 88 days long.",
+            "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
+            "On Mars, the Sun appears about half the size as it does on Earth.",
+            "Jupiter has the shortest day of all the planets.",
+            "The Sun is an almost perfect sphere."
+        ]
+    }
+}

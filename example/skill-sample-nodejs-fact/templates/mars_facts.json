@@ -1,0 +1,22 @@
+{
+    "invocation": {
+        "de": "marsfakten",
+        "en": "mars facts"
+    },
+    "title": {
+        "de": "Marsfakten",
+        "en": "Mars Geek"
+    },
+    "theme": {
+        "de": "Mars",
+        "en": "mars"
+    },
+    "facts": {
+        "de": [
+            "Auf dem Mars erscheint die Sonne nur halb so groß wie auf der Erde."
+        ], 
+        "en" : [
+            "On Mars, the Sun appears about half the size as it does on Earth."
+        ]
+    }
+}

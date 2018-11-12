@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "{{invocation.en}}",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "GetNewFactIntent",
+          "samples": [
+            "a fact",
+            "a {{theme.en}} fact",
+            "tell me a fact",
+            "tell me a {{theme.en}} fact",
+            "give me a fact",
+            "give me a {{theme.en}} fact",
+            "tell me trivia",
+            "tell me a {{theme.en}} trivia",
+            "give me trivia",
+            "give me a {{theme.en}} trivia",
+            "give me some information",
+            "give me some {{theme.en}} information",
+            "tell me something",
+            "give me something"
+          ],
+          "slots": []
+        }
+      ]
+    }
+  }
+}
