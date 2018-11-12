@@ -10,7 +10,6 @@ This powerful tool enables you to create Alexa skill projects and all their file
     * [What is this for?](#01)
     * [Why do I need it?](#02)
     * [What it does](#03)
-
 * **[Step by Step Guide](#1)**
     * [Prerequisites](#11)
     * **Input**
@@ -20,7 +19,6 @@ This powerful tool enables you to create Alexa skill projects and all their file
     * **Output**
         * [Create Alexa skill variants](#15)
         * [Deploy Alexa skill variants](#16)
-
 * **[Best Practices](#2)**
 
 <a name="01"></a>
@@ -44,7 +42,7 @@ The main idea is to replace individual settings in any files of your skill proje
 - The tool is using [Moustache](https://www.npmjs.com/package/mustache) with [Moustache CLI](https://www.npmjs.com/package/mustache-cli). _npm install_ them and you´re good to go.
 - Store the _moustask.sh_ shell script in the root folder of your skill project. 
 
-<a name="2"></a>
+<a name="12"></a>
 #### 1) Create configuration profiles
 
 Create a new folder called _templates_ in your skill project root. In it, you should create one to many JSON profiles that store all invididual configuration settings for the skill variants and that should not be stored in your generalized skill project files (aka Moustache templates). There is no fixed format. You'll define the format and refer to it in your source files.
@@ -57,7 +55,7 @@ Create a new folder called _templates_ in your skill project root. In it, you sh
     "invocation": { "en": "space facts", "de": "weltraumfakten" }
 }
 ```
-<a name="3"></a>
+<a name="13"></a>
 #### 2) Turn your skill resource files into Moustache templates
 
 Assume you have an interaction model you´d want to share across many Alexa skills. Instead of entering the invocation name you are putting in a placeholder.
