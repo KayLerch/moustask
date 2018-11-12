@@ -6,7 +6,7 @@ This powerful tool enables you to create Alexa skill projects and all their file
 
 ## Alexa Skill Templating powered by [Moustache](https://mustache.github.io/)
 
-* **FAQ**
+* **Context**
     * [What is this for?](#01)
     * [Why do I need it?](#02)
     * [What it does](#03)
@@ -20,6 +20,7 @@ This powerful tool enables you to create Alexa skill projects and all their file
         * [Create Alexa skill variants](#15)
         * [Deploy Alexa skill variants](#16)
 * **[Best Practices](#2)**
+* **[Example](./example/skill-sample-nodejs-fact)**
 
 <a name="01"></a>
 ###  What is this for?
