@@ -11,6 +11,10 @@
         "de": "Weltraum",
         "en": "space"
     },
+    "keywords": {
+        "de": [ "Weltraum", "Weltall", "All", "Universum" ], 
+        "en": [ "space", "outer space", "universe" ]
+    },
     "facts": {
         "de": [
             "Ein Jahr dauert auf dem Merkur nur 88 Tage.",

@@ -161,6 +161,10 @@ const deData = {
     FACTS:
       [
           'Auf dem Mars erscheint die Sonne nur halb so groß wie auf der Erde.',
+          'Mars und Erde haben in etwa die gleiche Landmasse.',
+          'Der Mars beheimatet den größten Berg in unserem Sonnensystem.',
+          'Der Mars besitzt die größten Sandstürme in unserem Sonnensystem.',
+          'Auf dem Mars erscheint die Sonne nur halb so groß wie auf der Erde.',
       ],
   },
 };
@@ -184,6 +188,10 @@ const enData = {
     FACTS:
       [
           'On Mars, the Sun appears about half the size as it does on Earth.',
+          'Mars and Earth have approximately the same landmass.',
+          'Mars is home to the tallest mountain in the solar system.',
+          'Mars has the largest dust storms in the solar system.',
+          'On Mars the Sun appears about half the size as it does on Earth.',
       ],
   },
 };
