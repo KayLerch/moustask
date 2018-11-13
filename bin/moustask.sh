@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Make sure you created your configuration templates as .json files and stored them in TEMPLATE_FOLDER. Run "bash mustask.sh" and watch out for OUTPUT_FOLDER being created with skill variants that will be ready for instant deployment via Skill Management API (SMAPI).
+# Make sure you created your configuration profiles as .json files and stored them in TEMPLATE_FOLDER. Run "bash mustask.sh" and watch out for OUTPUT_FOLDER being created with skill variants that will be ready for instant deployment via Skill Management API (SMAPI).
 
 TEMPLATE_FOLDER="templates";
 OUTPUT_FOLDER="_dist";
