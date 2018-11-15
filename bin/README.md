@@ -1,6 +1,6 @@
 ## MoustASK shell script
 
-Copy the _moustask.sh_ shell script to your skill project like you can see it in the example. Once you set up your projects as described in the README simply run it from your CLI and watch out for the new __dist_ folder containing your skill variant projects.
+Copy the [_moustask.sh_](moustask.sh) shell script to your skill project like you can see it in the [example](../example/skill-sample-nodejs-fact/). Once you set up your projects as described in the README simply run it from your CLI and watch out for the new __dist_ folder containing your skill variant projects.
 
 ```bash
 bash ./moustask.sh
@@ -32,6 +32,7 @@ bash ./moustask.sh
 
 ### **AFTER**
 
+```
 /my_skill_project/
 │   
 └───/_dist/
